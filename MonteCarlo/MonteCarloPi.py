@@ -1,6 +1,6 @@
 import random
 
-TOTAL_POINTS = 10000000
+TOTAL_POINTS = 1000000
 RADIUS = 10000
 
 xs = []
@@ -10,6 +10,7 @@ pt = 0  #points in the circle
 for i in range(TOTAL_POINTS):
 	xs.append(random.randint(0, RADIUS))
 	ys.append(random.randint(0, RADIUS))
+
 	#print("addPt: " + str(xs[i]) + ", " + str(ys[i]))
 
 for i in range(TOTAL_POINTS):
