@@ -10,7 +10,7 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
 
-from basicCal3_lineBot import calByFormula
+from basicCal3 import calByFormula
 
 app = Flask(__name__)
 
@@ -39,7 +39,7 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    print("getMessage")
+    print("getMessage")# for Developer
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=calByFormula(event.message.text)))

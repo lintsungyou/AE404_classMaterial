@@ -70,4 +70,4 @@ def calByFormula(formulaStr):
     res = cleanCrossDevideList(numberTotal, crossDivideOperands, crossDivideOperator)
     total = total + res
     print(str(total))
-return str(total)
+    return str(total)
