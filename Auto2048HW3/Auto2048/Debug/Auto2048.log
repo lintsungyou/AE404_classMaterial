@@ -1,0 +1,3 @@
+﻿  Auto2048.cpp
+F:\ClassMaterials\Python\Auto2048HW3\Auto2048\Auto2048.cpp(584,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Auto2048.vcxproj -> F:\ClassMaterials\Python\Auto2048HW3\Debug\Auto2048.exe
